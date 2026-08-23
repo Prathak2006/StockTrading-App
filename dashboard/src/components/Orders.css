@@ -1,0 +1,59 @@
+.orders-container {
+  width: 100%;
+  padding: 30px;
+}
+
+.orders-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th {
+  text-align: right;
+  padding: 15px 10px;
+  color: #919191;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.orders-table td {
+  padding: 14px 10px;
+  text-align: right;
+  font-size: 0.9rem;
+  color: #494949;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.orders-table th:first-child,
+.orders-table td:first-child {
+  text-align: left;
+}
+
+.buy-mode {
+  color: #48c237 !important;
+  font-weight: 500;
+}
+
+.sell-mode {
+  color: #fa764e !important;
+  font-weight: 500;
+}
+
+.completed-status {
+  color: #48c237 !important;
+}
+
+.empty-orders {
+  text-align: center;
+  color: #999;
+  margin-top: 100px;
+  font-size: 1rem;
+}
