@@ -1,5 +1,13 @@
+import { useNavigate } from "react-router-dom";
+
 function Universe() {
+    const navigate = useNavigate();
+
+    const handleSignup = () => {
+        navigate("/signup");
+    };
     return (
+
         <div className="container">
             <div className="row text-center">
 
@@ -10,7 +18,7 @@ function Universe() {
                     with our partner platforms
                 </p>
 
-      
+
                 <div className="col-12 col-sm-6 col-md-4 p-3 mt-3">
                     <img
                         src="images/sensibullLogo.svg"
@@ -24,7 +32,7 @@ function Universe() {
                     </p>
                 </div>
 
-              
+
                 <div className="col-12 col-sm-6 col-md-4 p-3 mt-3">
                     <img
                         src="images/zerodhaFundhouse.png"
@@ -38,7 +46,7 @@ function Universe() {
                     </p>
                 </div>
 
-         
+
                 <div className="col-12 col-sm-6 col-md-4 p-3 mt-3">
                     <img
                         src="images/tijori.svg"
@@ -52,7 +60,7 @@ function Universe() {
                     </p>
                 </div>
 
-             
+
                 <div className="col-12 col-sm-6 col-md-4 p-3 mt-3">
                     <img
                         src="images/streakLogo.png"
@@ -66,7 +74,7 @@ function Universe() {
                     </p>
                 </div>
 
-          
+
                 <div className="col-12 col-sm-6 col-md-4 p-3 mt-3">
                     <img
                         src="images/smallcaseLogo.png"
@@ -94,13 +102,13 @@ function Universe() {
                     </p>
                 </div>
 
-               
+
                 <div className="col-12 my-5">
-                    <a href="/signup" className="text-decoration-none">
-                        <button className="mt-3 btn btn-primary p-2 px-4">
+                   
+                        <button onClick={handleSignup}    className="mt-3 btn btn-primary p-2 px-4">
                             Sign Up for free
                         </button>
-                    </a>
+                    
                 </div>
 
             </div>

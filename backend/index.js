@@ -42,6 +42,9 @@ async function main() {
 app.use("/api", authRoute);
 app.use("/api", allRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
 
 app.listen(PORT, () => {
   console.log("App Started");

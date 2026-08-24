@@ -1,4 +1,11 @@
+import { useNavigate } from "react-router-dom";
+
 function OpenAccount() {
+  const navigate = useNavigate();
+
+  const handleSignup = () => {
+    navigate("/signup");
+  };
   return (
     <div className="container py-4 py-md-5">
       <div className="row text-center justify-content-center">
@@ -13,11 +20,10 @@ function OpenAccount() {
             intraday and F&O trades.
           </p>
 
-          <a href="/signup" className="text-decoration-none">
-            <button className="btn btn-primary px-4 py-2 mt-3 mt-md-4 fs-6 fs-md-5">
-              Sign up for free
-            </button>
-          </a>
+          <button onClick={handleSignup} className="btn btn-primary px-4 py-2 mt-3 mt-md-4 fs-6 fs-md-5">
+            Sign up for free
+          </button>
+
         </div>
 
       </div>
