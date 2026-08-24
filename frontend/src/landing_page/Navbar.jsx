@@ -44,25 +44,25 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/About">
+                            <NavLink className="nav-link" to="/about">
                                 About
                             </NavLink>
                         </li>
 
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/Products">
+                            <NavLink className="nav-link" to="/products">
                                 Products
                             </NavLink>
                         </li>
 
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/Pricing">
+                            <NavLink className="nav-link" to="/pricing">
                                 Pricing
                             </NavLink>
                         </li>
 
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/Support">
+                            <NavLink className="nav-link" to="/support">
                                 Support
                             </NavLink>
                         </li>
@@ -75,7 +75,7 @@ function Navbar() {
                                     backgroundColor: "#387ed1",
                                     marginLeft: "20px"
                                 }}
-                                to="/Signup"
+                                to="/signup"
                             >
                                 Signup
                             </NavLink>
@@ -86,7 +86,7 @@ function Navbar() {
                                     backgroundColor: "#dc3545",
                                     marginLeft: "20px"
                                 }}
-                                to="/Login"
+                                to="/login"
                             >
                                 Login
                             </NavLink>
